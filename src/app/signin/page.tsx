@@ -1,4 +1,4 @@
- import { auth } from "@/auth";
+import { auth } from "@/auth";
 import AuthProvider from "@/components/common/Provider/AuthProvider";
 import WidthWraper from "@/components/common/WidthWraper";
 import { Button } from "@/components/ui/button";
@@ -7,7 +7,6 @@ import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import React from "react";
- 
 
 const Page = async () => {
   const session = await auth();
@@ -24,7 +23,7 @@ const Page = async () => {
             Log in to you Account{" "}
           </h2>
           <p className="text-sm text-slate-700 font-medium">
-            Let's go with lots of fun !
+            Lets go with lots of fun !
           </p>
           <div className="space-y-4 py-6">
             <div className="grid w-full  items-center gap-1.5">
@@ -49,7 +48,7 @@ const Page = async () => {
             <Button type="submit">Sign In</Button>
           </div>
           <Link href={"/signup"} className="text-sm font-semibold">
-            Don't an account ?
+            Dont an account ?
           </Link>
           <div className="flex gap-3 items-center justify-center text-sm font-semibold text-gray-700 py-4">
             <div className="h-[2px] bg-gray-300 w-4/12" />

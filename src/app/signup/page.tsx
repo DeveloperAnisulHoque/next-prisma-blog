@@ -23,7 +23,7 @@ const Page = async () => {
             Join our Network
           </h2>
           <p className="text-sm text-slate-700 font-medium">
-            Let's go with lots of fun !
+            Lets go with lots of fun !
           </p>
 
           <div className="space-y-4 py-6">
