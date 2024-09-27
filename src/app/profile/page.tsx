@@ -18,8 +18,8 @@ export default async function Home() {
   return (
     <div className="py-10">
       <WidthWraper>
-        <div className="flex gap-2">
-          <div className="w-40 h-40   bg-slate-100  shadow-sm hover:shadow-md duration-150 rounded">
+        <div className="flex md:gap-2 gap-y-2 flex-wrap">
+          <div className="w-40 h-40   bg-slate-100  shadow-sm hover:shadow-md duration-150 rounded overflow-hidden border border-slate-100">
             {session?.user?.image && (
               <Image
                 src={session?.user?.image}
@@ -44,7 +44,7 @@ export default async function Home() {
               <p className="text-xl font-bold">54</p>
             </div>
           </div>
-          <div className="ms-auto flex gap-2 ">
+          <div className="md:ms-auto flex gap-2 ">
             <InfoUPdateModal />
             <PasswordUpdateModal />
             <OTPModal />
@@ -59,9 +59,9 @@ export default async function Home() {
 
           <hr />
 
-          <div className="w-4/12 mx-auto py-10 text-center space-y-4">
+          <div className=" w-8/12   md:w-4/12 mx-auto py-10 text-center space-y-4">
             <EmptySection />
-            <p className="text-xl font-semibold text-slate-500">
+            <p className=" text-base  md:text-xl font-semibold text-slate-500">
               No data found !
             </p>
           </div>

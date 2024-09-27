@@ -22,8 +22,9 @@ export async function ProfileDropdown() {
           className="p-0  focus-visible:ring-0 rounded-full  h-fit w-fit"
         >
           <Avatar className="hover:ring-1 ring-primary duration-150">
-            <AvatarImage src="" alt="@shadcn" />
-            <AvatarFallback>A</AvatarFallback>
+            <AvatarImage src={session?.user?.image} alt="@shadcn" />
+
+            <AvatarFallback>{session?.user?.name?.slice(0, 2)}</AvatarFallback>
           </Avatar>{" "}
         </Button>
       </DropdownMenuTrigger>
