@@ -2,7 +2,7 @@
 
 This is a feature-rich **blog website** built using modern technologies like **Next.js**, **Next-Auth**, **Prisma**, and **ShadCN**. This platform enables users to create, read, update, and delete posts with a smooth and efficient user experience.
 
-<img src="/src/public/image1.png" alt="Blog Website Showcase" width="500"/>
+<img src="/src/public/image1.png" alt="Blog Website Showcase" width="100%" />
 
 ![Blog Website Showcase](https://yourdomain.com/main-showcase-image.png)
 
