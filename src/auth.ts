@@ -1,6 +1,5 @@
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
-import { pages } from "next/dist/build/templates/app-page";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   providers: [

@@ -5,10 +5,8 @@ import { InfoUPdateModal } from "@/components/common/Modals/InfoUpdateModal";
 import { OTPModal } from "@/components/common/Modals/OtpModal";
 import { PasswordUpdateModal } from "@/components/common/Modals/PasswordUpdateModal";
 import WidthWraper from "@/components/common/WidthWraper";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { redirect } from "next/navigation";
-import { FaAd, FaPlus } from "react-icons/fa";
 
 export default async function Home() {
   const session = await auth();
